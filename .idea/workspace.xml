@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="add gitignore">
-      <change afterPath="$PROJECT_DIR$/PZ_2_20/one_line.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Proj_1sem_Dudkov.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proj_1sem_Dudkov.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="add one-line solution and solution with half division" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,13 +156,22 @@
       <option name="project" value="LOCAL" />
       <updated>1696696903591</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add one-line solution and solution with half division">
+      <option name="closed" value="true" />
+      <created>1697038637058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697038637058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First PZ" />
     <MESSAGE value="rename solution PZ_2 file" />
     <MESSAGE value="add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+    <MESSAGE value="add one-line solution and solution with half division" />
+    <option name="LAST_COMMIT_MESSAGE" value="add one-line solution and solution with half division" />
   </component>
 </project>
