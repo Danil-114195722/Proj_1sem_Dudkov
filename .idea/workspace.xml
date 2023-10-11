@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="add task desc in start of solution file" />
+    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="correct half_division">
+      <change beforePath="$PROJECT_DIR$/PZ_2_20/half_division.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_2_20/half_division.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697038895360</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="correct half_division">
+      <option name="closed" value="true" />
+      <created>1697039245688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697039245688</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +191,7 @@
     <MESSAGE value="add gitignore" />
     <MESSAGE value="add one-line solution and solution with half division" />
     <MESSAGE value="add task desc in start of solution file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task desc in start of solution file" />
+    <MESSAGE value="correct half_division" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct half_division" />
   </component>
 </project>

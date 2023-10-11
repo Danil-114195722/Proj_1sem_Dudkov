@@ -5,13 +5,12 @@
 
 def main() -> None:
     try:
-        str_num = int(input('Введите трёхзначное число: '))
+        int_num = int(input('Введите трёхзначное число: '))
 
         # если юзер ввёл НЕ трёхзначное число
-        if len(str(str_num)) != 3:
+        if len(str(int_num)) != 3:
             raise ValueError
 
-        int_num = int(str_num)
         result = (int_num // 10 % 10 * 100) + (int_num // 100 * 10) + (int_num % 10)
         print(f'Ответ: {result}')
 
