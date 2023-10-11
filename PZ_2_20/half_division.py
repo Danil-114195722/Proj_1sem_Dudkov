@@ -12,13 +12,12 @@ def main() -> None:
             raise ValueError
 
         int_num = int(str_num)
-        result = int_num // 10 % 10 * 100 + int_num // 100 * 10 + int_num % 10
+        result = (int_num // 10 % 10 * 100) + (int_num // 100 * 10) + (int_num % 10)
         print(f'Ответ: {result}')
 
     # обработка ошибок
     except ValueError:
         print('Неверные данные!!!')
-        return
 
 
 if __name__ == "__main__":
