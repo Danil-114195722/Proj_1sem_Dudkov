@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Add empty dirs for 3-8 projs">
+    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Add tasks in 3 PZ; correct PZ_2 report">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PZ_3_8/PZ_3_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_3_8/PZ_3_8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PZ_2_20">
+  <component name="RunManager" selected="Python.PZ_3_8">
     <configuration name="PZ_2_20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Dudkov" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,6 +71,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_2_20/PZ_2_20.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PZ_3_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Proj_1sem_Dudkov" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_3_8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_3_8/PZ_3_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PZ_3_8" />
         <item itemvalue="Python.PZ_2_20" />
         <item itemvalue="Python.half_division" />
         <item itemvalue="Python.one_line" />
@@ -201,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698333568347</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add tasks in 3 PZ; correct PZ_2 report">
+      <option name="closed" value="true" />
+      <created>1698334320732</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698334320732</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,6 +243,7 @@
     <MESSAGE value="add task desc in start of solution file" />
     <MESSAGE value="correct half_division" />
     <MESSAGE value="Add empty dirs for 3-8 projs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add empty dirs for 3-8 projs" />
+    <MESSAGE value="Add tasks in 3 PZ; correct PZ_2 report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tasks in 3 PZ; correct PZ_2 report" />
   </component>
 </project>
