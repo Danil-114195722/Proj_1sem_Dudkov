@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Done PZ_3">
+    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Done PZ_4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_4_8/PZ_4_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_4_8/PZ_4_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_5_8/PZ_5_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_5_8/PZ_5_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_6_8/PZ_6_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_6_8/PZ_6_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_7_8/PZ_7_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_7_8/PZ_7_8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/home/danil/Documents/RKSI/Base_of_programming/Proj_1sem_Dudkov/PZ_8_8",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/danil/Documents/RKSI/Base_of_programming/Proj_1sem_Dudkov/PZ_8_8&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PZ_8_8" />
@@ -57,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PZ_4_8">
+  <component name="RunManager" selected="Python.PZ_4_8_1">
     <configuration name="PZ_2_20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Dudkov" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PZ_3_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PZ_3_8_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Dudkov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_3_8/PZ_3_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_3_8/PZ_3_8_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PZ_4_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PZ_4_8_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Dudkov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_4_8/PZ_4_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_4_8/PZ_4_8_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,8 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PZ_4_8" />
-        <item itemvalue="Python.PZ_3_8" />
+        <item itemvalue="Python.PZ_4_8_1" />
+        <item itemvalue="Python.PZ_3_8_1" />
         <item itemvalue="Python.PZ_2_20" />
         <item itemvalue="Python.half_division" />
         <item itemvalue="Python.one_line" />
@@ -262,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698339244721</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Done PZ_4">
+      <option name="closed" value="true" />
+      <created>1698348760679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698348760679</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,6 +285,7 @@
     <MESSAGE value="Add empty dirs for 3-8 projs" />
     <MESSAGE value="Add tasks in 3 PZ; correct PZ_2 report" />
     <MESSAGE value="Done PZ_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done PZ_3" />
+    <MESSAGE value="Done PZ_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done PZ_4" />
   </component>
 </project>

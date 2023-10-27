@@ -1,18 +1,3 @@
-def first_task():
-    """
-    Даны два целых числа: A, B. Проверить истинность высказывания: «Каждое из чисел
-    A и B нечетное»
-    """
-
-    a = int(input('Введите целое число A: '))
-    b = int(input('Введите целое число B: '))
-
-    if a % 2 == 1 and b % 2 == 1:
-        print('Истина')
-    else:
-        print('Ложь')
-
-
 def second_task():
     """
     Единицы длины пронумерованы следующим образом: 1 — дециметр, 2 — километр,
@@ -45,12 +30,6 @@ def second_task():
 
 
 def main():
-    try:
-        first_task()
-    except ValueError:
-        print('\033[31mНеверное число!\033[0m')
-        main()
-
     try:
         second_task()
     except ValueError:
