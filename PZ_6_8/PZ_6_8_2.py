@@ -13,7 +13,6 @@ def second_task(n: int):
     count = 0
 
     for i in range(2, n):
-        print(rand_list[i - 2: i + 1])
         if (rand_list[i - 2] < rand_list[i - 1]) and (rand_list[i - 1] > rand_list[i]):
             count += 1
 
