@@ -18,6 +18,7 @@ def main():
             raise ValueError
 
         res = add_left_digit(d=d, num=k)
+        print(res)
 
         d = int(input('Вторая цифра для добавления: '))
         # если d не в диапазоне 1..9, то возбуждаем ошибку
