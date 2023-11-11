@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Add PZ_7 and PZ_9 report">
+    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Add dirs and files for all PZ">
+      <change afterPath="$PROJECT_DIR$/PZ_13_8/PZ_13_8_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_10_8/PZ_10_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_10_8/PZ_10_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_11_8/PZ_11_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_12_8/PZ_12_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_12_8/PZ_12_8_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_13_8/PZ_13_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_14_8/PZ_14_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_14_8/PZ_14_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_15/PZ_15.md" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_15/PZ_15.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_16/PZ_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_16/PZ_16.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +48,17 @@
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
     "last.edited.regexp": "Sample Text    \n\nmlnln  dbnjenbjkntkn    nbetjnet ",
-    "last_opened_file_path": "/home/danil/Documents/RKSI/Base_of_programming/Proj_1sem_Dudkov",
+    "last_opened_file_path": "/home/danil/Documents/RKSI/Base_of_programming/Proj_1sem_Dudkov/PZ_13_8",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PZ_13_8" />
+      <recent name="$PROJECT_DIR$/PZ_12_8" />
+      <recent name="$PROJECT_DIR$/PZ_11_8" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/PZ_15_8" />
-      <recent name="$PROJECT_DIR$/PZ_14_8" />
-      <recent name="$PROJECT_DIR$/PZ_7_8" />
-      <recent name="$PROJECT_DIR$/PZ_6_8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -318,7 +326,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699176296942</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add dirs and files for all PZ">
+      <option name="closed" value="true" />
+      <created>1699177492678</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699177492678</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add dirs and files for all PZ">
+      <option name="closed" value="true" />
+      <created>1699177498801</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699177498801</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -338,6 +362,7 @@
     <MESSAGE value="Add PZ5 report" />
     <MESSAGE value="Add PZ6 report, update all reports" />
     <MESSAGE value="Add PZ_7 and PZ_9 report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add PZ_7 and PZ_9 report" />
+    <MESSAGE value="Add dirs and files for all PZ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dirs and files for all PZ" />
   </component>
 </project>
