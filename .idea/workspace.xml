@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Correct PZ_5; finished PZ_10">
+    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Correct PZ_5; finished PZ_11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_5_8/PZ_5_8_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_5_8/PZ_5_8_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_14_8/PZ_14_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_14_8/PZ_14_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_17_8/PZ_17_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_17_8/PZ_17_8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,45 +42,24 @@
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
     "last.edited.regexp": "Sample Text    \n\nmlnln  dbnjenbjkntkn    nbetjnet ",
-    "last_opened_file_path": "/home/danil/Documents/RKSI/Base_of_programming/Proj_1sem_Dudkov/PZ_11_8",
+    "last_opened_file_path": "/home/danil/Documents/RKSI/Base_of_programming/Proj_1sem_Dudkov/PZ_14_8",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PZ_14_8" />
       <recent name="$PROJECT_DIR$/PZ_11_8" />
       <recent name="$PROJECT_DIR$/PZ_13_8" />
       <recent name="$PROJECT_DIR$/PZ_12_8" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/PZ_15_8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/PZ_2_20" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PZ_11_8_2">
-    <configuration name="PZ_10_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Proj_1sem_Dudkov" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_10_8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_10_8/PZ_10_8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.PZ_14_8">
     <configuration name="PZ_11_8_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Dudkov" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PZ_5_8_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PZ_14_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Dudkov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +110,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_5_8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_14_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_5_8/PZ_5_8_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_14_8/PZ_14_8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PZ_17_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Proj_1sem_Dudkov" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_17_8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_17_8/PZ_17_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PZ_14_8" />
+        <item itemvalue="Python.PZ_17_8" />
         <item itemvalue="Python.PZ_11_8_2" />
         <item itemvalue="Python.PZ_11_8_1" />
         <item itemvalue="Python.PZ_5_8_2" />
-        <item itemvalue="Python.PZ_10_8" />
-        <item itemvalue="Python.PZ_5_8_1" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699712371513</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Correct PZ_5; finished PZ_11">
+      <option name="closed" value="true" />
+      <created>1699727296556</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699727296556</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -376,6 +383,7 @@
     <MESSAGE value="Add dirs and files for all PZ" />
     <MESSAGE value="Add templates for all of PZ" />
     <MESSAGE value="Correct PZ_5; finished PZ_10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct PZ_5; finished PZ_10" />
+    <MESSAGE value="Correct PZ_5; finished PZ_11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct PZ_5; finished PZ_11" />
   </component>
 </project>
