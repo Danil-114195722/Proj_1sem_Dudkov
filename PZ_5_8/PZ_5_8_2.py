@@ -1,4 +1,4 @@
-def add_left_digit(d: int, k: int):
+def add_left_digit(d: int, num: int):
     """
     Описать функцию AddLeftDigit(D, K), добавляющую к целому положительному
     числу K слева цифру D (D — входной параметр целого типа, лежащий в диапазоне
@@ -6,23 +6,27 @@ def add_left_digit(d: int, k: int):
     С помощью этой функции последовательно добавить к данному числу K слева
     данные цифры D1 и D2, выводя результат каждого добавления.
     """
-
-    res = int(str(d) + str(k))
-
-    print(res)
+    return int(str(d) + str(num))
 
 
 def main():
     try:
-        d = int(input('Цифра для добавления: '))
-
+        k = int(input('Число: '))
+        d = int(input('Первая цифра для добавления: '))
         # если d не в диапазоне 1..9, то возбуждаем ошибку
         if not (0 < d < 10):
             raise ValueError
 
-        k = int(input('Число: '))
+        res = add_left_digit(d=d, num=k)
 
-        add_left_digit(d=d, k=k)
+        d = int(input('Вторая цифра для добавления: '))
+        # если d не в диапазоне 1..9, то возбуждаем ошибку
+        if not (0 < d < 10):
+            raise ValueError
+
+        res = add_left_digit(d=d, num=res)
+        print(res)
+
     except ValueError:
         print('\033[31mНеверные данные!\033[0m')
         main()

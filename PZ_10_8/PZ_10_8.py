@@ -7,8 +7,29 @@ def task():
     3. в каких магазинах можно приобрести соль.
     """
 
-    print('fff')
+    # содержание товаров в магазинах
+    stores = {
+        'Магнит': {'молоко', 'соль', 'сахар'},
+        'Пятерочка': {'мясо', 'молоко', 'сыр'},
+        'Перекресток': {'молоко', 'творог', 'сыр'},
+    }
+
+    # переменные для ответов
+    no_cheese = []
+    milk_and_sugar = []
+    salt_exist = []
+
+    for key, value in stores.items():
+        if 'сыр' not in value:
+            no_cheese.append(key)
+        if {'молоко', 'сахар'}.issubset(value):
+            milk_and_sugar.append(key)
+        if 'соль' in value:
+            salt_exist.append(key)
+
+    print('Нельзя приобрести сыр в:', ', '.join(no_cheese))
+    print('Можно приобрести одновременно молоко и сахар в:', ', '.join(milk_and_sugar))
+    print('Можно приобрести соль в:', ', '.join(salt_exist))
 
 
-if __name__ == '__main__':
-    task()
+task()
