@@ -15,16 +15,17 @@ def second_task():
 
     lseg = int(input('Длина отрезка в выбранных единицах: '))
 
-    if len_unit == 1:
-        res = lseg / 10
-    elif len_unit == 2:
-        res = lseg * 1000
-    elif len_unit == 4:
-        res = lseg / 1000
-    elif len_unit == 5:
-        res = lseg / 100
-    else:
-        res = lseg
+    match len_unit:
+        case 1:
+            res = lseg / 10
+        case 2:
+            res = lseg * 1000
+        case 3:
+            res = lseg
+        case 4:
+            res = lseg / 1000
+        case 5:
+            res = lseg / 100
 
     print('Длина отрезка в метрах:', res)
 
