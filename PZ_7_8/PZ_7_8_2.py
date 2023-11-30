@@ -13,9 +13,5 @@ def second_task():
     print(f'Чистое предложение:\n{clean_sents}')
 
 
-def main():
-    second_task()
-
-
 if __name__ == '__main__':
-    main()
+    second_task()
