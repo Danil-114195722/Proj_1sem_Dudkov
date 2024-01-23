@@ -16,7 +16,7 @@ def second_task():
     print(f'\nКол-во букв: {len(re_sub("[^а-яА-ЯёЁ]", "", text))}')
 
     with open('edited_poetry.txt', 'w') as edited_poetry:
-        del_c_text = text.replace('с', '').replace('С', '')
+        del_c_text = re_sub('[сС]', '', text)
         edited_poetry.write(del_c_text)
 
 
