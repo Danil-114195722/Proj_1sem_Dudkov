@@ -7,9 +7,9 @@ def print_matrix(matrix: list, col_hint: int = -1):
         for i in range(len(row)):
             # если номер колонки соответствует номеру колонки для выделения
             if col_hint == i:
-                print('\033[33m' + str(row[i]).rjust(3, ' ') + '\033[0m', end='')
+                print('\033[33m' + str(row[i]).rjust(3) + '\033[0m', end='')
             else:
-                print(str(row[i]).rjust(3, ' '), end='')
+                print(str(row[i]).rjust(3), end='')
         print()
 
 
@@ -24,13 +24,12 @@ def first_task(n: int):
     print_matrix(rand_matrix)
 
     for row in rand_matrix:
-        row[n - 1] = row[n - 1] * 2
+        row[n - 1] *= 2
     print()
 
-    print_matrix(rand_matrix, col_hint=n-1)
+    print_matrix(rand_matrix, col_hint=n - 1)
 
 
-if __name__ == '__main__':
-    first_task(
-        n=int(input('Номер столбца [1-9]: '))
-    )
+first_task(
+    n=int(input('Номер столбца [1-9]: '))
+)

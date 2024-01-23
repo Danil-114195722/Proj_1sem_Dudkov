@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Add reports for 10-14 PZ">
+    <list default="true" id="004858bf-9dda-46bf-bcaa-253d5d6d38d3" name="Changes" comment="Updates 10-11 PZs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_10_8/PZ_10_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_10_8/PZ_10_8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11_8/PZ_11_8_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11_8/nums.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11_8/nums.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_11_8/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_11_8/report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/PZ_10_8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_13_8/PZ_13_8_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_13_8/PZ_13_8_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_13_8/PZ_13_8_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_13_8/PZ_13_8_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -439,11 +435,18 @@
       <option name="project" value="LOCAL" />
       <updated>1704578647239</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Updates 10-11 PZs">
+      <option name="closed" value="true" />
+      <created>1706036056586</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706036056586</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First PZ" />
     <MESSAGE value="rename solution PZ_2 file" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="add one-line solution and solution with half division" />
@@ -468,6 +471,7 @@
     <MESSAGE value="Finished PZ_16" />
     <MESSAGE value="Remove try-except from all the tasks after 9th task" />
     <MESSAGE value="Add reports for 10-14 PZ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add reports for 10-14 PZ" />
+    <MESSAGE value="Updates 10-11 PZs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates 10-11 PZs" />
   </component>
 </project>

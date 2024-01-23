@@ -5,7 +5,7 @@ from random import randint
 def print_matrix(matrix: list):
     for row in matrix:
         for i in range(len(row)):
-            print(str(row[i]).rjust(3, ' '), end='')
+            print(str(row[i]).rjust(3), end='')
         print()
 
 
