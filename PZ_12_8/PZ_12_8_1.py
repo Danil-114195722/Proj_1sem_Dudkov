@@ -1,25 +1,39 @@
 from random import randint
 
 
+# печать матрицы (с возможностью выделения колонки)
+def print_matrix(matrix: list, col_hint: int = -1):
+    for row in matrix:
+        for i in range(len(row)):
+            # если номер колонки соответствует номеру колонки для выделения
+            if col_hint == i:
+                print('\033[33m' + str(row[i]).rjust(3) + '\033[0m', end='')
+            else:
+                print(str(row[i]).rjust(3), end='')
+        print()
+
+
+def double_num(num: int) -> int:
+    return num * 2
+
+
 def first_task(n: int):
     """
-    В последовательности на n целых элементов найти количество пар, для которых
-    произведение элементов делится на 3 (элементы пары в последовательности являются
-    соседними).
+    В матрице элементы столбца N (N задать с клавиатуры) увеличить в два раза.
     """
 
-    rand_list = [randint(1, 50) for _ in range(n)]
-    print('Список:', rand_list)
+    # создаём матрицу со случайными числами
+    rand_matrix = [[randint(1, 49) for _ in range(9)] for _ in range(9)]
 
-    pairs = []
-    for i in range(1, n):
-        if (rand_list[i] * rand_list[i - 1]) % 3 == 0:
-            pairs.append((rand_list[i - 1], rand_list[i]))
+    print_matrix(rand_matrix)
 
-    print('Подходящие пары:', *pairs)
+    for row in rand_matrix:
+        row[n - 1] = double_num(row[n - 1])
+    print()
+
+    print_matrix(rand_matrix, col_hint=n - 1)
 
 
-if __name__ == '__main__':
-    first_task(
-        n=int(input('Длина последовательности: '))
-    )
+first_task(
+    n=int(input('Номер столбца [1-9]: '))
+)
