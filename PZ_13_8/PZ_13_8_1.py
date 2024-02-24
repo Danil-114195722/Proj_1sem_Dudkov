@@ -13,6 +13,10 @@ def print_matrix(matrix: list, col_hint: int = -1):
         print()
 
 
+def double_num(num: int) -> int:
+    return num * 2
+
+
 def first_task(n: int):
     """
     В матрице элементы столбца N (N задать с клавиатуры) увеличить в два раза.
@@ -24,7 +28,7 @@ def first_task(n: int):
     print_matrix(rand_matrix)
 
     for row in rand_matrix:
-        row[n - 1] *= 2
+        row[n - 1] = double_num(row[n - 1])
     print()
 
     print_matrix(rand_matrix, col_hint=n - 1)
