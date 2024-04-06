@@ -158,10 +158,10 @@ if __name__ == '__main__':
     # )
 
     list_orders = db_model.get_orders()
-    print(list_orders)
+    print('all:', list_orders)
     list_orders_filtered = db_model.get_orders("title LIKE '%Картофель%' OR", "buyer = 'ПАО Ростелеком'")
-    print(list_orders_filtered)
+    print("title LIKE '%Картофель%' OR buyer = 'ПАО Ростелеком':", list_orders_filtered)
 
-    # print(db_model.get_orders("buyer = 'ИП Дерево'"))
-    # db_model.update_orders(where_filter="buyer = 'ИП Дерево'", update_set="price = price + 1")
-    # print(db_model.get_orders("buyer = 'ИП Дерево'"))
+    print("buyer = 'ИП Дерево' (before update):", db_model.get_orders("buyer = 'ИП Дерево'"))
+    db_model.update_orders(where_filter="buyer = 'ИП Дерево'", update_set="price = price + 1")
+    print("buyer = 'ИП Дерево' (after update):", db_model.get_orders("buyer = 'ИП Дерево'"))
