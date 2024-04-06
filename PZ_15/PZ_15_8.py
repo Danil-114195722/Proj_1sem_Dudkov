@@ -45,7 +45,7 @@ class ProductOrdersDB:
             title VARCHAR(100) NOT NULL UNIQUE,
             buyer VARCHAR(150) NOT NULL,
             order_datetime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            perform_days INTEGER NOT NULL,
+            perform_days INTEGER NOT NULL CHECK (perform_days >= 1 AND perform_days <= 10),
             price INTEGER NOT NULL
         );
         """
@@ -140,28 +140,46 @@ class ProductOrdersDB:
 if __name__ == '__main__':
     db_model = ProductOrdersDB(db_file_path=DB_FILE, print_errors=True)
 
-    # db_model.clear_db()
-    # db_model.create_tables()
+    db_model.clear_db()
+    db_model.create_tables()
 
-    # for i in range(10):
-    #     db_model.insert_order(
-    #         code=f'58675699{i}',
-    #         title=random_choice([f'Мыло {i}', f'Картофель {i}', f'Кресло офисное {i}']),
-    #         buyer=random_choice(['ООО что-то', 'ПАО Ростелеком', 'ИП Дерево']),
-    #         perform_days=randint(1, 10),
-    #         price=randint(1000, 100000),
-    #     )
+    for i in range(10):
+        db_model.insert_order(
+            code=f'58675699{i}',
+            title=random_choice([f'Мыло {i}', f'Картофель {i}', f'Кресло офисное {i}']),
+            buyer=random_choice(['ООО что-то', 'ПАО Ростелеком', 'ИП Дерево']),
+            perform_days=randint(1, 10),
+            price=randint(1000, 100000),
+        )
 
-    # db_model.delete_orders(
-    #     field='id',
-    #     value=1
-    # )
+    # DELETE
+    print('\n\nall (before delete):', db_model.get_orders())
+    db_model.delete_orders(field='id', value=1)
+    print('\nall (after delete):', db_model.get_orders())
 
-    list_orders = db_model.get_orders()
-    print('all:', list_orders)
-    list_orders_filtered = db_model.get_orders("title LIKE '%Картофель%' OR", "buyer = 'ПАО Ростелеком'")
-    print("title LIKE '%Картофель%' OR buyer = 'ПАО Ростелеком':", list_orders_filtered)
+    # SELECT
+    where_queries = ["title LIKE '%Картофель%' AND", "buyer = 'ПАО Ростелеком'"]
+    list_orders_filtered = db_model.get_orders(*where_queries)
+    print(f"\n\n{' '.join(where_queries)}:", list_orders_filtered)
 
-    print("buyer = 'ИП Дерево' (before update):", db_model.get_orders("buyer = 'ИП Дерево'"))
-    db_model.update_orders(where_filter="buyer = 'ИП Дерево'", update_set="price = price + 1")
-    print("buyer = 'ИП Дерево' (after update):", db_model.get_orders("buyer = 'ИП Дерево'"))
+    # UPDATE
+    where_query = "buyer = 'ИП Дерево'"
+    print(f"\n\n{where_query} (before update):", db_model.get_orders(where_query))
+    db_model.update_orders(where_filter=where_query, update_set="price = price + 1")
+    print(f"\n{where_query} (after update):", db_model.get_orders(where_query))
+
+    # UPDATE
+    where_query = "code = '586756992'"
+    print(f"\n\n{where_query} (before update):", db_model.get_orders(where_query))
+    db_model.update_orders(where_filter=where_query, update_set="perform_days = perform_days - 1")
+    print(f"\n{where_query} (after update):", db_model.get_orders(where_query))
+
+    # DELETE
+    db_model.delete_orders(field='buyer', value='ПАО Ростелеком')
+    print('\n\nall (after delete buyer = "ПАО Ростелеком"):', db_model.get_orders())
+
+    # UPDATE
+    where_query = "title LIKE '%Мыло%'"
+    print(f"\n\n{where_query} (before update):", db_model.get_orders(where_query))
+    db_model.update_orders(where_filter=where_query, update_set="price = price * 1.5")
+    print(f"\n{where_query} (after update):", db_model.get_orders(where_query))
