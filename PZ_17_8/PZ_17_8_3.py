@@ -86,7 +86,7 @@ def fourth():
     os.chdir("/home/danil/Documents/RKSI/Base_of_programming/Proj_1sem_Dudkov/Reports")
     print(f"Current path: {os.getcwd()}\n")
 
-    os.system("evince ./PZ_7_8.pdf")
+    os.system("evince ./PZ_17_8.pdf")
 
 
 def fifth():
@@ -105,8 +105,8 @@ def fifth():
 
 
 if __name__ == "__main__":
-    first()
+    # first()
     # second(sleep_time=2)
     # third()
-    # fourth()
+    fourth()
     # fifth()
